@@ -1,17 +1,19 @@
 import './App.css'
 import Home from './pages/Home'
-import Contact from './pages/Contact'
-import Login from "./pages/Login"
+import Exercises from './pages/Exercises'
+import Footer from './components/Footer'
 
 import { Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/login" element={<Login/>} />
-    </Routes>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/exercises" element={<Exercises />} />
+      </Routes>
+      <Footer />
+    </>
   )
 }
 
