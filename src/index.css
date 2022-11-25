@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.familyimg {
+  background-image: url(/src/family-gym.jpeg);
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100vw;
+}
